@@ -1,0 +1,18 @@
+{
+  "name": "bicycleshop",
+  "version": "1.0.0",
+  "description": "A pure nodejs based application",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "BicycleShop"
+  },
+  "author": "moarifur",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
