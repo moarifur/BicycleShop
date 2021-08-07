@@ -60,7 +60,7 @@ const server = http.createServer(async (req, res) => {
 
 });
 
-server.listen(3000);
+server.listen(process.env.PORT || 5000)
 
 
 function replaceTemplate(html, bicycle) {
